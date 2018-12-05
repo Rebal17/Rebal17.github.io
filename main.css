@@ -149,7 +149,7 @@ footer{
 }
 
 /* media queries */
-@media(max-width: 1200px){
+@media screen and (max-width: 1200px){
   .top-container{
     grid-template-areas: 
     "showcase showcase"
@@ -170,7 +170,7 @@ footer{
     margin: auto;
   }
 }
-@media only screen (max-width: 500px){
+@media screen and (max-width: 500px){
   .top-container{
     grid-template-areas:
     "showcase"
