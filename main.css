@@ -170,7 +170,7 @@ footer{
     margin: auto;
   }
 }
-@media(max-width: 500px){
+@media only screen (max-width: 500px){
   .top-container{
     grid-template-areas:
     "showcase"
